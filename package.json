@@ -1,6 +1,6 @@
 {
   "name": "rn-ios-user-agent",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Set (and unset) a UserAgent to be used in WebView.",
   "main": "index.js",
   "repository": {
@@ -22,5 +22,7 @@
   "devDependencies": {
     "react-native": "^0.31.0"
   },
-  "peerDependencies": { "react-native": "*" }
+  "peerDependencies": {
+    "react-native": "*"
+  }
 }
