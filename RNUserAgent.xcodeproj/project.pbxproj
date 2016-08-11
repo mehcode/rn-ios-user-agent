@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76E4D9741D5C4FA600D8F72E /* RNUserAgent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76E4D9731D5C4FA600D8F72E /* RNUserAgent.h */; };
+		76E4D9761D5C4FA600D8F72E /* RNUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E4D9751D5C4FA600D8F72E /* RNUserAgent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76E4D96E1D5C4FA600D8F72E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				76E4D9741D5C4FA600D8F72E /* RNUserAgent.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		76E4D9701D5C4FA600D8F72E /* libRNUserAgent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNUserAgent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E4D9731D5C4FA600D8F72E /* RNUserAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNUserAgent.h; sourceTree = "<group>"; };
+		76E4D9751D5C4FA600D8F72E /* RNUserAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNUserAgent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76E4D96D1D5C4FA600D8F72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76E4D9671D5C4FA600D8F72E = {
+			isa = PBXGroup;
+			children = (
+				76E4D9721D5C4FA600D8F72E /* RNUserAgent */,
+				76E4D9711D5C4FA600D8F72E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76E4D9711D5C4FA600D8F72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76E4D9701D5C4FA600D8F72E /* libRNUserAgent.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76E4D9721D5C4FA600D8F72E /* RNUserAgent */ = {
+			isa = PBXGroup;
+			children = (
+				76E4D9731D5C4FA600D8F72E /* RNUserAgent.h */,
+				76E4D9751D5C4FA600D8F72E /* RNUserAgent.m */,
+			);
+			path = RNUserAgent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76E4D96F1D5C4FA600D8F72E /* RNUserAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E4D9791D5C4FA600D8F72E /* Build configuration list for PBXNativeTarget "RNUserAgent" */;
+			buildPhases = (
+				76E4D96C1D5C4FA600D8F72E /* Sources */,
+				76E4D96D1D5C4FA600D8F72E /* Frameworks */,
+				76E4D96E1D5C4FA600D8F72E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNUserAgent;
+			productName = RNUserAgent;
+			productReference = 76E4D9701D5C4FA600D8F72E /* libRNUserAgent.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76E4D9681D5C4FA600D8F72E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ryan Leckey";
+				TargetAttributes = {
+					76E4D96F1D5C4FA600D8F72E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 76E4D96B1D5C4FA600D8F72E /* Build configuration list for PBXProject "RNUserAgent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76E4D9671D5C4FA600D8F72E;
+			productRefGroup = 76E4D9711D5C4FA600D8F72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76E4D96F1D5C4FA600D8F72E /* RNUserAgent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76E4D96C1D5C4FA600D8F72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E4D9761D5C4FA600D8F72E /* RNUserAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		76E4D9771D5C4FA600D8F72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76E4D9781D5C4FA600D8F72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76E4D97A1D5C4FA600D8F72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		76E4D97B1D5C4FA600D8F72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76E4D96B1D5C4FA600D8F72E /* Build configuration list for PBXProject "RNUserAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E4D9771D5C4FA600D8F72E /* Debug */,
+				76E4D9781D5C4FA600D8F72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E4D9791D5C4FA600D8F72E /* Build configuration list for PBXNativeTarget "RNUserAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E4D97A1D5C4FA600D8F72E /* Debug */,
+				76E4D97B1D5C4FA600D8F72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76E4D9681D5C4FA600D8F72E /* Project object */;
+}
