@@ -1,6 +1,6 @@
 {
   "name": "rn-ios-user-agent",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Set (and unset) a UserAgent to be used in WebView.",
   "main": "index.js",
   "repository": {
